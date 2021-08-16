@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/Favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/Favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/Faicons/favicon-16x16.png">
+    <link rel="manifest" href="/img/Favicons/site.webmanifest">
+    <link rel="mask-icon" href="/img/Favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta name="description" content="Special website fow health food store">
+    
+    <meta name="keywords" content="health, food, store">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@700&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/768.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+    <title>Healthy Food</title>
+</head>
+<body>
+
+    <div class="page">
+
+    <!-- Sprite -->
+    <svg style="display: none;">
+        <symbol id="plus" viewBox="0 0 426.66667 426.66667">
+            <g>
+                <path d="m405.332031 192h-170.664062v-170.667969c0-11.773437-9.558594-21.332031-21.335938-21.332031-11.773437 0-21.332031 9.558594-21.332031 21.332031v170.667969h-170.667969c-11.773437 0-21.332031 9.558594-21.332031 21.332031 0 11.777344 9.558594 21.335938 21.332031 21.335938h170.667969v170.664062c0 11.777344 9.558594 21.335938 21.332031 21.335938 11.777344 0 21.335938-9.558594 21.335938-21.335938v-170.664062h170.664062c11.777344 0 21.335938-9.558594 21.335938-21.335938 0-11.773437-9.558594-21.332031-21.335938-21.332031zm0 0" />
+            </g>
+        </symbol>
+    </svg>
+
+    <svg style="display: none;">
+        <symbol id="apple" viewBox="0 0 512.003 512.003">
+            <g>
+                <path d="M351.98,0c-27.296,1.888-59.2,19.36-77.792,42.112c-16.96,20.64-30.912,51.296-25.472,81.088
+                			c29.824,0.928,60.64-16.96,78.496-40.096C343.916,61.568,356.556,31.104,351.98,0z" />
+            </g>
+            <g>
+                <path d="M459.852,171.776c-26.208-32.864-63.04-51.936-97.824-51.936c-45.92,0-65.344,21.984-97.248,21.984
+                			c-32.896,0-57.888-21.92-97.6-21.92c-39.008,0-80.544,23.84-106.88,64.608c-37.024,57.408-30.688,165.344,29.312,257.28
+                			c21.472,32.896,50.144,69.888,87.648,70.208c33.376,0.32,42.784-21.408,88-21.632c45.216-0.256,53.792,21.92,87.104,21.568
+                			c37.536-0.288,67.776-41.28,89.248-74.176c15.392-23.584,21.12-35.456,33.056-62.08
+                			C387.852,342.624,373.932,219.168,459.852,171.776z" />
+            </g>
+        </symbol>
+
+    </svg>
+
+    <svg style="display: none;">
+        <symbol id="play" viewBox="0 0 469.847 469.847">
+            <g>
+                <path style="fill:#2196F3;" d="M270.336,234.965L34.39,462.165c-11.049-7.551-17.609-20.111-17.493-33.493V41.258
+                	C16.781,27.876,23.341,15.316,34.39,7.765L270.336,234.965z" />
+                <path style="fill:#4CAF50;" d="M352.896,155.605l-82.56,79.36L34.39,7.765c0.889-0.689,1.815-1.33,2.773-1.92
+                	c12.47-7.558,28.046-7.802,40.747-0.64L352.896,155.605z" />
+                <path style="fill:#FFC107;" d="M452.95,234.965c0.154,15.107-8.055,29.061-21.333,36.267l-78.72,43.093l-82.56-79.36l82.56-79.36
+                	l78.72,43.093C444.895,205.904,453.104,219.858,452.95,234.965z" />
+                <path style="fill:#F44336;" d="M352.896,314.325L77.91,464.725c-12.729,7.051-28.246,6.807-40.747-0.64
+                	c-0.958-0.59-1.884-1.231-2.773-1.92l235.947-227.2L352.896,314.325z" />
+            </g>
+        </symbol>
+    </svg>
+
+    <svg style="display: none;">
+        <symbol id="instagram" viewBox="0 0 512 512">
+            <circle style="fill:#6C27B3;" cx="256" cy="256" r="256" />
+            <path style="fill:#501A96;" d="M374.71,132.922c-30.587,3.872-62.479,3.737-94.575,0.681
+            	c-44.822-3.448-110.33-24.135-134.465,17.239c-38.772,66.236-19.649,151.035-10.614,226.078l134.737,134.708
+            	c130.388-6.923,234.886-111.407,241.831-241.79L374.71,132.922z" />
+            <g>
+                <path style="fill:#FFFFFF;" d="M315.227,109.468H196.772c-48.14,0-87.304,39.164-87.304,87.304v118.455
+            		c0,48.138,39.164,87.305,87.305,87.305h118.455c48.138,0,87.305-39.165,87.305-87.305V196.772
+            		C402.532,148.632,363.367,109.468,315.227,109.468L315.227,109.468z M373.05,315.228c0,31.934-25.888,57.822-57.822,57.822H196.773
+            		c-31.934,0-57.822-25.888-57.822-57.822V196.773c0-31.934,25.888-57.823,57.822-57.823h118.455
+            		c31.934,0,57.822,25.89,57.822,57.823V315.228z" />
+                <path style="fill:#FFFFFF;" d="M256,180.202c-41.794,0-75.798,34.004-75.798,75.798c0,41.791,34.004,75.795,75.798,75.795
+            		s75.795-34.001,75.795-75.795S297.794,180.202,256,180.202L256,180.202z M256,302.313c-25.579,0-46.316-20.733-46.316-46.313
+            		s20.737-46.316,46.316-46.316s46.313,20.735,46.313,46.316C302.313,281.579,281.579,302.313,256,302.313L256,302.313z" />
+            </g>
+            <g>
+                <path style="fill:#D1D1D1;" d="M350.103,180.774c0,10.03-8.132,18.163-18.163,18.163c-10.03,0-18.163-8.133-18.163-18.163
+            		c0-10.031,8.133-18.163,18.163-18.163C341.973,162.611,350.103,170.741,350.103,180.774L350.103,180.774z" />
+                <path style="fill:#D1D1D1;" d="M315.228,109.468h-59.802v29.482h59.802c31.934,0,57.822,25.89,57.822,57.823v118.455
+            		c0,31.934-25.888,57.822-57.822,57.822h-59.802v29.482h59.802c48.138,0,87.304-39.165,87.304-87.305V196.772
+            		C402.532,148.632,363.367,109.468,315.228,109.468z" />
+                <path style="fill:#D1D1D1;"
+                    d="M256,180.202c-0.193,0-0.381,0.014-0.574,0.014v29.482c0.191-0.002,0.381-0.014,0.574-0.014
+            		c25.579,0,46.313,20.735,46.313,46.316c0,25.579-20.733,46.313-46.313,46.313c-0.193,0-0.383-0.012-0.574-0.014v29.482
+            		c0.193,0.002,0.381,0.014,0.574,0.014c41.794,0,75.795-34.002,75.795-75.795C331.795,214.206,297.794,180.202,256,180.202z" />
+            </g>
+        </symbol>
+    </svg>
+
+    <svg style="display: none;">
+        <symbol id="facebook" viewBox="0 0 512 512">
+            <path d="m512 256c0 141.386719-114.613281 256-256 256s-256-114.613281-256-256 114.613281-256 256-256 256 114.613281 256 256zm0 0"
+                fill="#4a7aff" />
+            <path d="m267.234375 511.738281c136.171875-5.878906 244.765625-118.121093 244.765625-255.738281 0-.996094-.027344-1.988281-.039062-2.984375l-177.699219-177.703125-190 198.59375 105.566406 105.566406-48.675781 66.183594zm0 0"
+                fill="#0053bf" />
+            <path d="m334.261719 75.3125v57.96875s-66.554688-9.660156-66.554688 33.277344v42.9375h60.113281l-7.511718 65.480468h-52.601563v170.679688h-66.554687v-170.679688l-56.894532-1.074218v-64.40625h55.820313v-49.378906s-3.683594-73.457032 68.703125-86.949219c30.058594-5.605469 65.480469 2.144531 65.480469 2.144531zm0 0"
+                fill="#fff" />
+            <path d="m334.261719 133.28125v-57.96875s-35.421875-7.75-65.480469-2.144531c-4.695312.875-9.0625 2.007812-13.136719 3.347656v369.140625h12.0625v-170.679688h52.597657l7.515624-65.480468h-60.113281s0 0 0-42.9375 66.554688-33.277344 66.554688-33.277344zm0 0"
+                fill="#dce1eb" />
+        </symbol>
+    </svg>
+
+    <svg style="display: none;">
+        <symbol id="twitter" viewBox="0 0 112.197 112.197">
+            <g>
+                <circle style="fill:#55ACEE;" cx="56.099" cy="56.098" r="56.098" />
+                <g>
+                    <path style="fill:#F1F2F2;" d="M90.461,40.316c-2.404,1.066-4.99,1.787-7.702,2.109c2.769-1.659,4.894-4.284,5.897-7.417
+            			c-2.591,1.537-5.462,2.652-8.515,3.253c-2.446-2.605-5.931-4.233-9.79-4.233c-7.404,0-13.409,6.005-13.409,13.409
+            			c0,1.051,0.119,2.074,0.349,3.056c-11.144-0.559-21.025-5.897-27.639-14.012c-1.154,1.98-1.816,4.285-1.816,6.742
+            			c0,4.651,2.369,8.757,5.965,11.161c-2.197-0.069-4.266-0.672-6.073-1.679c-0.001,0.057-0.001,0.114-0.001,0.17
+            			c0,6.497,4.624,11.916,10.757,13.147c-1.124,0.308-2.311,0.471-3.532,0.471c-0.866,0-1.705-0.083-2.523-0.239
+            			c1.706,5.326,6.657,9.203,12.526,9.312c-4.59,3.597-10.371,5.74-16.655,5.74c-1.08,0-2.15-0.063-3.197-0.188
+            			c5.931,3.806,12.981,6.025,20.553,6.025c24.664,0,38.152-20.432,38.152-38.153c0-0.581-0.013-1.16-0.039-1.734
+            			C86.391,45.366,88.664,43.005,90.461,40.316L90.461,40.316z" />
+                </g>
+            </g>
+        </symbol>
+    </svg>
+
+    <svg style="display: none;">
+        <symbol id="youtube" viewBox="0 0 473.931 473.931">
+            <circle style="fill:#D42428;" cx="236.966" cy="236.966" r="236.966" />
+            <path style="fill:#CC202D;" d="M404.518,69.38c92.541,92.549,92.549,242.593,0,335.142c-92.541,92.541-242.593,92.545-335.142,0
+            	L404.518,69.38z" />
+            <path style="fill:#BA202E;" d="M469.168,284.426L351.886,167.148l-138.322,15.749l-83.669,129.532l156.342,156.338
+            	C378.157,449.322,450.422,376.612,469.168,284.426z" />
+            <path style="fill:#FFFFFF;" d="M360.971,191.238c0-19.865-16.093-35.966-35.947-35.966H156.372c-19.85,0-35.94,16.105-35.94,35.966
+            	v96.444c0,19.865,16.093,35.966,35.94,35.966h168.649c19.858,0,35.947-16.105,35.947-35.966v-96.444H360.971z M216.64,280.146
+            	v-90.584l68.695,45.294L216.64,280.146z" />
+        </symbol>
+    </svg>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo">
+                    <img src="/img/food__logo.png" alt="logo" class="food__logo">
+                </div>
+
+                <nav class="nav" id="nav">
+                        <span><a href="#intro" class="nav__link" data-scroll="#intro">Home</a></span>
+                        <span><a href="#about" class="nav__link" data-scroll="#about">About us</a></span>
+                        <span><a href="#menu" class="nav__link" data-scroll="#menu">Menu</a></span>
+                        <span><a href="#features" class="nav__link" data-scroll="#features">Features</a></span>
+                        <span><a href="#contact" class="nav__link" data-scroll="#contact">Contact us</a></span>
+                </nav>
+
+                <div class="header__button">
+                    <a href="#" class="btn btn--booking">Booking Now</a>
+                </div>
+
+            <button class="nav-toggle" id="nav_toggle" type="button">
+                <span class="nav-toggle__item">Menu</span>
+            </button>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Intro -->
+    <section class="intro" id="intro">
+        <div class="container">
+            <div class="intro__inner">
+                <h1 class="intro__title">Making time a good time by making food the good food.</h1>
+                <h2 class="intro__subtitle">There are many things are needed to start the Fast Food Business. You need not only Just Food Stalls with Persons but
+                    also specialized equipment.</h2>
+            </div>
+            <div class="intro__btn">
+                <a href="#" class="btn btn--intro">Order Now</a>
+                <a href="#" class="btn btn--intro1">Food Details</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Features -->
+    <section class="section" id="features">
+        <div class="container">
+        <h4 class="section__title">Features</h4>
+        <h2 class="section__subtitle">Food with a New Passion</h2>
+
+        <div class="features">
+            <div class="features__item">
+                <img class="features__img" src="img/Features/features1.png" alt="features1">
+                <div class="features__title">Quality Food</div>
+                <div class="features__subtitle">It can be a very secure path to earn good money and make you very successful creative entrepreneur.</div>
+            </div>
+
+            <div class="features__item">
+                <img class="features__img" src="img/Features/features2.png" alt="features2">
+                <div class="features__title">Food Delivery</div>
+                <div class="features__subtitle">It can be a very secure path to earn good money and make you very successful creative entrepreneur.</div>
+            </div>
+
+            <div class="features__item">
+                <img class="features__img" src="img/Features/features3.png" alt="features3">
+                <div class="features__title">Super Taste</div>
+                <div class="features__subtitle">It can be a very secure path to earn good money and make you very successful creative entrepreneur.</div>
+            </div>
+        </div>
+        </div>
+        
+    </section>
+
+    <!-- About us -->
+    <section class="section section--about__us" id="about">
+        <div class="container">
+
+            <div class="right__side">
+                <h4 class="section__title --about__title">About us</h4>
+                <h2 class="section__subtitle --about__subtitle">Food Stalls with Persons but to Product marketing plane
+                catlogues etc to.</h2>
+                <p class="section__text">There are many things are needed to start the Fast Food Business. You need not only Just Food Stalls with Persons but
+                also equipment make your marketing plane Effective.</p>
+                <a href="#" class="btn btn--about">Read More</a>
+            </div>
+
+            
+            <div class="left__side">
+                <img class="vector" src="/img/Vector.png" alt="background">
+                <img class="about__img" src="img/about__us.png" alt="about__us">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Menu -->
+    <section class="section section--menu" id="menu">
+        <h4 class="section__title title--menu">Menu</h4>
+        <h2 class="section__subtitle">Food Full of treaty Love</h2>
+        <p class="section__text --menu__text">There are many things are needed to start the Fast Food Business. You need not only Just Food
+        Stalls with Persons but also equipment make your marketing plane Effective.</p>
+            <div class="container">
+                <div class="menu">
+                
+                <div class="menu__item">
+                    <img class="menu__img" src="img/menu/menu1.png" alt="menu1">
+                    <div class="menu__title">Vegie Muffen</div>
+                    <div class="menu__price">16$</div>
+                    <div class="menu__text">There are many things are needed to start the Fast Food Business.</div>
+                    <a href="#" class="btn btn--plus">
+                        <svg class="plus__icon">
+                            <use xlink:href="#plus"></use>
+                        </svg>
+                    </a>
+                    <div class="rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                </div>
+
+                <div class="menu__item">
+                    <img class="menu__img" src="img/menu/menu2.png" alt="menu2">
+                    <div class="menu__title">Salads</div>
+                    <div class="menu__price">12$</div>
+                    <div class="menu__text">There are many things are needed to start the Fast Food Business.</div>
+                    <a href="#" class="btn btn--plus">
+                        <svg class="plus__icon">
+                            <use xlink:href="#plus"></use>
+                        </svg>
+                    </a>
+                    <div class="rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>                     
+                </div>
+
+                <div class="menu__item">
+                    <img class="menu__img" src="img/menu/menu3.png" alt="menu3">
+                    <div class="menu__title">Burger</div>
+                    <div class="menu__price">10$</div>
+                    <div class="menu__text">There are many things are needed to start the Fast Food Business.</div>
+                    <a href="#" class="btn btn--plus">
+                        <svg class="plus__icon">
+                            <use xlink:href="#plus"></use>
+                        </svg>
+                    </a>
+                    <div class="rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>                     
+                </div>
+
+                <div class="menu__item">
+                    <img class="menu__img" src="img/menu/menu4.png" alt="menu4">
+                    <div class="menu__title">Delmonico Steak dish</div>
+                    <div class="menu__price">14$</div>
+                    <div class="menu__text">There are many things are needed to start the Fast Food Business.</div>
+                    <a href="#" class="btn btn--plus">
+                        <svg class="plus__icon">
+                            <use xlink:href="#plus"></use>
+                        </svg>
+                    </a>
+                    <div class="rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>                     
+                </div>
+                
+                <div class="menu__item">
+                    <img class="menu__img" src="img/menu/menu5.png" alt="menu5">
+                    <div class="menu__title">Egg Masala</div>
+                    <div class="menu__price">9$</div>
+                    <div class="menu__text">There are many things are needed to start the Fast Food Business.</div>
+                    <a href="#" class="btn btn--plus">
+                        <svg class="plus__icon">
+                            <use xlink:href="#plus"></use>
+                        </svg>
+                    </a>
+                    <div class="rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>                     
+                </div>
+
+                <div class="menu__item">
+                    <img class="menu__img" src="img/menu/menu6.png" alt="menu6">
+                    <div class="menu__title">Peach Melba dish</div>
+                    <div class="menu__price">15$</div>
+                    <div class="menu__text">There are many things are needed to start the Fast Food Business.</div>
+                    <a href="#" class="btn btn--plus">
+                        <svg class="plus__icon">
+                            <use xlink:href="#plus"></use>
+                        </svg>
+                    </a>
+                    <div class="rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>                     
+                </div>
+            </div>
+
+        <a href="#" class="btn btn--menu">Learn More</a>
+
+        </div>
+
+    </section>
+
+    <!-- Application -->
+    <section class="section section--application">
+        <div class="container">
+        <h4 class="app__title">Take away</h4>
+        <h2 class="app__subtitle">Food Stalls with Persons but to Product marketing plane.</h2>
+        <p class="app__text">There are many things are needed to start the Fast Food Business. You need not only Just Food Stalls with Persons but
+        also specialized equipmentwith Persons but also Just Food Stalls with Persons.</p>
+            <div class="app__buttons">
+                <a href="#" class="btn btn--app">
+                    <svg class="apple__icon">
+                        <use xlink:href="#apple"></use>
+                    </svg>
+                    <span class="apple__text">App Store</span>
+                </a>
+
+                <a href="#" class="btn btn--google">
+                 <svg class="play__icon">
+                <use xlink:href="#play"></use>
+                    </svg>
+                    <span class="play__text">Google Play</span>
+                </a>
+                </div>
+
+        <img class="app__img" src="/img/app.png" alt="phone">
+        </div>
+
+    </section>
+
+    <!-- Tetimonials -->
+
+    <section class="section section--testimonial">
+        <div class="container">
+            <h4 class="section__title">Testimonial</h4>
+            <h2 class="section__subtitle">Making Food great again and again</h2>
+            <p class="section__text --testimonial__text">You need not only Just Food Stalls with Persons but also specialized equipment, Skills to manage Customers, Effective
+            Product catlogues etc to make your.</p>
+
+            <div class="reviews">
+
+                    <div data-slider>
+                        <div>
+                        <div class="reviews__item">
+                            <img class="reviews__img" src="/img/Testimonial/testimonial1.png" alt="">
+                            <div class="reviews__text">You need not only Just Food Stalls with Persons but also specialized equipment, Skills to manage Customers, Effective
+                            Product catlogues etc very successful to make your.</div>
+                            <div class="rating --reviews__rating">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                            <div class="reviews__author">Augusta W. Reynoso</div>
+                            <div class="reviews__prof">UI&UX DeSIGNER</div>
+                        </div>
+                        </div>
+
+
+                        <div>
+                        <div class="reviews__item">
+                            <img class="reviews__img" src="/img/Testimonial/testimonial1.png" alt="">
+                            <div class="reviews__text">You need not only Just Food Stalls with Persons but also specialized equipment, Skills to
+                                manage Customers, Effective
+                                Product catlogues etc very successful to make your.</div>
+                            <div class="rating --reviews__rating">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                            <div class="reviews__author">Augusta W. Reynoso</div>
+                            <div class="reviews__prof">UI&UX DeSIGNER</div>
+                        </div>
+                        </div>
+
+                    </div>
+
+            </div>
+                    
+        </div> <!--.container -->
+    </section>
+
+    <div class="section section--contact" id="contact">
+        <div class="container">
+            <h4 class="section__title contact--title">Contact</h4>
+            <h2 class="section__subtitle contact--subtitle">Food Stalls with Persons but also specialized equipment, Skills to manage.</h2>
+            <form action="#" class="contact__form">
+                <input type="email" name="email" class="contact__input" placeholder="Enter your message">
+                <input type="submit" name="enter" value="Send" class="contact__button">
+                
+            </form>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+
+                <div class="footer__item">
+                    <a href="#"><img class="footer__logo" src="/img/food__logo(footer).png" alt="footer__logo"></a><br>
+                    <a href="#" class="item__links" target="_blank" >www.company name.com</a><br>
+                    <a href="mailto:companyname@gmail.com" class="item__links">companyname@gmail.com</a><br>
+                    <a href="tel:+74851180325" class="item__links">Phone: +7 485-118-03-25</a>
+                </div>
+
+                <div class="footer__item">
+                    <div class="item__title">Home</div><br>
+                    <a href="#" class="item__links" target="_blank">Landingpage</a><br>
+                    <a href="#" class="item__links" target="_blank">Documentation</a><br>
+                    <a href="#" class="item__links" target="_blank">Referral Program</a><br>
+                    <a href="#" class="item__links" target="_blank">UI & UX Design</a><br>
+                    <a href="#" class="item__links" target="_blank">Web Design</a>
+                </div>
+
+
+                <div class="footer__item">
+                    <div class="item__title">Menu</div><br>
+                    <a href="#" class="item__links" target="_blank">Landingpage</a><br>
+                    <a href="#" class="item__links" target="_blank">Documentation</a><br>
+                    <a href="#" class="item__links" target="_blank">Referral Program</a><br>
+                    <a href="#" class="item__links" target="_blank">UI & UX Design</a><br>
+                    <a href="#" class="item__links" target="_blank">Web Design</a>
+                </div>
+
+                <div class="footer__item">
+                    <div class="item__title">Company</div><br>
+                    <a href="#" class="item__links" target="_blank">Landingpage</a><br>
+                    <a href="#" class="item__links" target="_blank">Documentation</a><br>
+                    <a href="#" class="item__links" target="_blank">Referral Program</a><br>
+                    <div class="footer__social">
+                        <a href="https://www.instagram.com/" target="__blank" class="social__link">
+                            <svg class="social__icon">
+                                <use xlink:href="#instagram"></use>
+                            </svg>
+                        </a>
+
+                        <a href="https://www.facebook.com" target="__blank" class="social__link">
+                            <svg class="social__icon">
+                                <use xlink:href="#facebook"></use>
+                            </svg>
+                        </a>
+
+                        <a href="https://www.twitter.com" target="__blank" class="social__link">
+                            <svg class="social__icon">
+                                <use xlink:href="#twitter"></use>
+                            </svg>
+                        </a>
+
+                        <a href="https://www.youtube.com" target="__blank" class="social__link">
+                            <svg class="social__icon">
+                                <use xlink:href="#youtube"></use>
+                            </svg>
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="/js/app.js"></script>
+
+
+    
+</body>
+</html>

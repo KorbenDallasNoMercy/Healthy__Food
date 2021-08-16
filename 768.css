@@ -1,0 +1,1238 @@
+@media screen and (max-width: 960px) {
+  .food__logo {
+    margin-left: 20px;
+  }
+
+  /* intro */
+
+  .intro__inner {
+    padding-top: 267px;
+  }
+
+  .intro__title {
+    font-size: 32px;
+    line-height: 39px;
+  }
+
+  .intro__subtitle {
+    padding-bottom: 90px;
+  }
+
+  /* Nav */
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    font-size: 16px;
+    line-height: 14px;
+  }
+
+  .nav__link {
+    margin: 0 15px;
+  }
+
+  /* Header */
+  .header__inner {
+    justify-content: space-between;
+  }
+
+  /* BTN */
+
+  .btn--booking {
+    margin-right: 20px;
+  }
+
+  .btn--about {
+    position: static;
+  }
+
+  /* Features */
+  .features {
+    flex: 0 0 25%;
+  }
+
+  .features__item {
+    margin-right: 30px;
+    width: 190px;
+  }
+
+  .features__item:first-child {
+    margin-left: 15px;
+  }
+
+  .features__title {
+    font-size: 20px;
+    line-height: 14px;
+  }
+
+  .features__subtitle {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  /* About us */
+  .right__side {
+    width: 487px;
+    text-align: left;
+    position: relative;
+    left: 450px;
+    top: 10px;
+  }
+
+  .left__side {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .vector {
+    position: absolute;
+    top: -570px;
+    left: -830px;
+  }
+
+  .about__img {
+    position: absolute;
+    margin-left: 20px;
+    top: -290px;
+    width: 355px;
+    height: 321px;
+  }
+
+  .--about__title {
+    text-align: left;
+    font-size: 14px;
+  }
+
+  .--about__subtitle {
+    text-align: left;
+    margin-bottom: 30px;
+    padding-bottom: 0;
+  }
+
+  .section--about__us {
+    padding-top: 120px;
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    height: 600px;
+  }
+
+  .section__subtitle {
+    font-size: 23px;
+  }
+
+  /* menu */
+  .section--menu {
+    padding-top: 0;
+  }
+
+  .--menu__text {
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    left: 0px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 0px;
+    margin-left: 20px;
+    /* or 150% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #150c01;
+
+    opacity: 0.7;
+  }
+
+  .menu__item {
+    margin-left: 70px;
+    margin-right: auto;
+  }
+
+  /* Application */
+
+  .app__title {
+    padding-top: 100px;
+    font-size: 14px;
+  }
+
+  .app__subtitle {
+    font-size: 25px;
+    line-height: 29px;
+    max-width: 350px;
+  }
+
+  .app__text {
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 350px;
+  }
+
+  .app__img {
+    margin-left: 600px;
+  }
+
+  /* Testimonials */
+  .section__title {
+    font-size: 14px;
+  }
+
+  .section__text {
+    font-size: 14px;
+  }
+
+  .reviews__text {
+    font-size: 14px;
+  }
+
+  .reviews__author {
+    font-size: 14px;
+  }
+
+  .section--testimonial {
+    text-align: center;
+  }
+
+  .--reviews__rating {
+    display: inline-block;
+    margin-left: 0;
+  }
+
+  /* contact  */
+  .section--contact {
+    text-align: center;
+    height: 414px;
+  }
+  .contact--title {
+    padding-top: 85px;
+  }
+
+  .contact--subtitle {
+    line-height: 29px;
+    font-size: 22px;
+  }
+
+  .contact__input {
+    width: 567px;
+    height: 65px;
+    display: inline-block;
+    margin-left: 0;
+  }
+
+  .contact__button {
+    height: 65px;
+    width: 135px;
+  }
+
+  /* Footer */
+
+  .footer__item {
+    margin: 0 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* Intro */
+  .section__title {
+    padding-top: 60px;
+  }
+
+  .intro__inner {
+    max-width: 100%;
+  }
+
+  .intro {
+    height: 600px;
+  }
+
+  .intro__title {
+    text-align: center;
+    font-size: 36px;
+    line-height: 50px;
+  }
+
+  .food__logo {
+    margin-left: 20px;
+  }
+
+  /* Btn */
+  .btn--booking {
+    margin-right: 20px;
+  }
+
+  /* Header */
+  .header.fixed .nav-toggle {
+    top: 23px;
+  }
+
+  /* Nav */
+  .nav.active {
+    display: block;
+  }
+
+  .nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    width: 100%;
+    opacity: 0.7;
+  }
+
+  .nav__link {
+    display: block;
+    margin: 0;
+    padding: 8px 20px;
+    font-weight: 700;
+  }
+
+  .nav-toggle {
+    display: block;
+    top: 55px;
+    left: 80px;
+    right: 0;
+  }
+
+  /* Features */
+  .features {
+    justify-content: space-between;
+  }
+
+  .features__item {
+    width: 393px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  }
+
+  .features__item:last-child {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .features__item:first-child {
+    margin-left: auto;
+  }
+
+  .features__title {
+    font-size: 20px;
+  }
+
+  .features__subtitle {
+    font-size: 14px;
+  }
+
+  /* About us */
+  .right__side {
+    width: 400px;
+    text-align: left;
+    position: relative;
+    left: 353px;
+    top: -8px;
+  }
+
+  .left__side {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .vector {
+    position: absolute;
+    top: -774px;
+    left: -830px;
+  }
+
+  .about__img {
+    position: absolute;
+    margin-left: 20px;
+    top: -289px;
+    width: 307px;
+    height: 283px;
+  }
+
+  .--about__title {
+    text-align: left;
+    font-size: 14px;
+  }
+
+  .--about__subtitle {
+    text-align: left;
+    margin-bottom: 30px;
+    padding-bottom: 0;
+  }
+
+  .section--about__us {
+    padding-top: 10px;
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    height: 400px;
+  }
+
+  .section__subtitle {
+    font-size: 21px;
+  }
+
+  .section__text {
+    font-size: 14px;
+  }
+
+  /* Manu */
+
+  .--menu__text {
+    width: 100%;
+    height: 0px;
+    left: 0px;
+    margin-top: 10px;
+    margin: auto;
+  }
+
+  .menu__item {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 330px;
+  }
+
+  .menu__img {
+    width: 330px;
+  }
+
+  .menu__price {
+    margin-left: 280px;
+  }
+
+  .btn--menu {
+    margin-bottom: 100px;
+  }
+
+  .rating {
+    margin-left: 226px;
+  }
+
+  /* Application */
+  .section--application {
+    height: 830px;
+    position: relative;
+    margin-bottom: 30px;
+  }
+  .app__title {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 70px;
+  }
+
+  .app__subtitle {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .app__text {
+    max-width: 100%;
+    margin-left: 0;
+
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+  }
+
+  .app__img {
+    margin: 0 auto;
+    display: block;
+    margin-top: -550px;
+    width: 220px;
+    height: 414px;
+    z-index: 1000;
+  }
+
+  .btn--app {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 450px;
+    margin-bottom: 20px;
+  }
+
+  .btn--google {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  /* tstimonials */
+  .--reviews__rating {
+    margin-left: 0;
+    display: block;
+    text-align: center;
+  }
+
+  /* Contact */
+  .section--contact {
+    height: 330px;
+  }
+
+  .contact__input {
+    width: 500px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contact__button {
+    height: 60px;
+    width: 120px;
+    font-size: 15px;
+  }
+
+  .contact__form {
+    text-align: center;
+  }
+
+  /* Slider */
+  .slick-arrow {
+    margin: 0 30px;
+  }
+
+  /* Footer */
+  .footer__item {
+    margin: 0 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .food__logo {
+    margin-left: 10px;
+  }
+
+  /* Header */
+  .header.fixed .nav-toggle {
+    top: 23px;
+  }
+
+  /* Nav */
+  .nav.active {
+    display: block;
+  }
+
+  .nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    width: 100%;
+    opacity: 0.7;
+  }
+
+  .nav__link {
+    display: block;
+    margin: 0;
+    padding: 8px 20px;
+    font-weight: 700;
+  }
+
+  .nav-toggle {
+    display: block;
+    top: 55px;
+    left: 70px;
+  }
+
+  /* Btn */
+
+  .btn {
+    width: 130px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+  .btn--booking {
+    margin-right: 10px;
+  }
+
+  /* INtro */
+
+  .intro__title {
+    font-size: 30px;
+  }
+
+  .intro__subtitle {
+    font-size: 14px;
+  }
+
+  .section__title {
+    padding-top: 100px;
+    font-size: 15px;
+  }
+
+  .section__subtitle {
+    font-size: 21px;
+  }
+
+  /* Features */
+
+  .features {
+    justify-content: space-between;
+  }
+
+  .features__item {
+    width: 393px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  }
+
+  .features__item:last-child {
+    margin-right: auto;
+  }
+
+  .features__title {
+    font-size: 21px;
+  }
+
+  .features__subtitle {
+    font-size: 14px;
+  }
+
+  /* About */
+  .section--about__us {
+    height: auto;
+    padding-top: 0;
+    position: relative;
+  }
+  .right__side {
+    width: 100%;
+    position: static;
+    text-align: center;
+  }
+
+  .--about__title {
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .--about__subtitle {
+    text-align: center;
+    font-size: 21px;
+  }
+
+  .section__text {
+    font-size: 14px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .about__img {
+    position: static;
+    width: 330px;
+    height: 307px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .btn--about {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    position: absolute;
+    margin-top: 350px;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* Menu */
+  .title__menu {
+    font-size: 14px;
+  }
+
+  .--menu__text {
+    left: 0;
+    text-align: center;
+    max-width: 100%;
+    font-size: 14px;
+    margin-right: 40px;
+    height: 0px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 auto;
+  }
+
+  .menu {
+    justify-content: center;
+  }
+
+  .menu__item {
+    margin-right: 0;
+  }
+
+  .btn--plus {
+    width: 36px;
+    height: 34px;
+  }
+
+  .btn--menu {
+    margin-bottom: 60px;
+  }
+
+  /* Application */
+
+  .section--application {
+    height: 830px;
+    margin-bottom: 0;
+  }
+
+  .app__title {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 70px;
+  }
+
+  .app__subtitle {
+    width: 100%;
+    margin-left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 21px;
+  }
+
+  .app__text {
+    width: 100%;
+    margin-left: 10px;
+    padding-right: 20px;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .app__img {
+    margin: 0 auto;
+    display: block;
+    margin-top: -525px;
+    width: 220px;
+    height: 414px;
+    z-index: 1000;
+    position: static;
+  }
+
+  .btn--app {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 450px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+
+  .apple__icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .apple__text {
+    margin-top: -17px;
+    margin-left: 36px;
+    font-size: 14px;
+  }
+
+  .btn--google {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .play__icon {
+    width: 18px;
+    height: 18px;
+    margin-left: 20px;
+  }
+
+  .play__text {
+    font-size: 14px;
+    margin-top: -18px;
+    margin-left: 40px;
+  }
+
+  /* Testimonials */
+  .--testimonial__text {
+    width: 100%;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .reviews__text {
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .--reviews__rating {
+    margin-left: 0;
+    display: block;
+    text-align: center;
+  }
+
+  .reviews__author {
+    font-size: 14px;
+  }
+
+  .reviews__prof {
+    margin-bottom: 40px;
+  }
+
+  /* Contact */
+  .section--contact {
+    height: 380px;
+  }
+
+  .contact__title {
+    font-size: 14px;
+  }
+
+  .contact--subtitle {
+    font-size: 21px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .contact__input {
+    width: 400px;
+    height: 55px;
+    margin-left: 0;
+    font-size: 14px;
+  }
+
+  .contact__button {
+    width: 120px;
+    height: 55px;
+    font-size: 14px;
+  }
+
+  .contact__form {
+    text-align: center;
+  }
+
+  /* Footer */
+  .footer {
+    padding-top: 70px;
+    padding-bottom: 0;
+  }
+
+  .footer__item {
+    width: 37%;
+    margin-bottom: 50px;
+    margin: 10px 36px;
+  }
+}
+
+/* Slider */
+
+.slick-arrow {
+  top: 50%;
+}
+@media screen and (max-width: 320px) {
+  .food__logo {
+    margin-left: 10px;
+  }
+
+  /* Nav */
+  .nav {
+    display: none;
+  }
+
+  .nav-toggle {
+    display: block;
+    top: 55px;
+  }
+
+  /* Btn */
+  .btn {
+    width: 90px;
+    font-size: 14px;
+    height: 35px;
+  }
+
+  .btn--booking {
+    margin-right: 10px;
+  }
+
+  .btn--intro {
+    padding-top: 7px;
+  }
+
+  .btn--intro1 {
+    padding-top: 7px;
+  }
+
+  .btn--intro:hover,
+  .btn--intro1:hover {
+    background-color: #dc780b;
+    color: #fff;
+    font-weight: normal;
+    border: 0;
+    padding-top: 9px;
+    transition: background-color 0.3s linear;
+  }
+
+  /* Intro */
+  .intro {
+    min-height: 500px;
+  }
+
+  .intro__inner {
+    padding-top: 170px;
+  }
+
+  .intro__title {
+    font-size: 24px;
+    line-height: 30px;
+    margin-left: 10px;
+  }
+
+  .section__title {
+    padding-top: 65px;
+    font-size: 14px;
+  }
+
+  .section__subtitle {
+    font-size: 22px;
+  }
+
+  /* Features */
+
+  .features {
+    justify-content: space-between;
+  }
+
+  .features__item {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+  }
+  .features__img {
+    width: 75px;
+    height: 75px;
+  }
+
+  .features__title {
+    font-size: 17px;
+    width: 100%;
+  }
+
+  .features__subtitle {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  /* About us */
+  .section--about__us {
+    height: auto;
+    padding-top: 0;
+    position: relative;
+  }
+  .right__side {
+    width: 100%;
+    position: static;
+    text-align: center;
+  }
+
+  .--about__title {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .--about__subtitle {
+    text-align: center;
+    font-size: 21px;
+  }
+
+  .section__text {
+    font-size: 14px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .about__img {
+    position: static;
+    width: 300px;
+    height: 280px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .btn--about {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    position: absolute;
+    margin-top: 350px;
+    padding-top: 7px;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .vector {
+    top: -547px;
+    left: -675px;
+  }
+
+  /* Menu */
+  .--menu__text {
+    left: 0;
+    text-align: center;
+    max-width: 100%;
+    font-size: 14px;
+    margin-right: 40px;
+    height: 0px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 auto;
+  }
+
+  .menu {
+    flex: 100%;
+  }
+
+  .menu__item {
+    width: 300px;
+    height: 390px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .menu__img {
+    width: 300px;
+  }
+
+  .menu__title {
+    font-size: 20px;
+    line-height: 18px;
+  }
+
+  .menu__text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .menu__price {
+    margin-left: 242px;
+  }
+
+  .btn--plus {
+    width: 36px;
+    height: 34px;
+  }
+
+  .rating {
+    margin-left: 181px;
+  }
+
+  .btn--menu {
+    margin-bottom: 50px;
+  }
+
+  /* Application */
+
+  .section--application {
+    height: 870px;
+    margin-bottom: 10px;
+  }
+  .app__title {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 70px;
+  }
+
+  .app__subtitle {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+    font-size: 21px;
+    line-height: 26px;
+  }
+
+  .app__text {
+    width: 100%;
+    margin-left: 10px;
+    padding-right: 20px;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .app__img {
+    margin: 0 auto;
+    display: block;
+    margin-top: -525px;
+    width: 220px;
+    height: 414px;
+    z-index: 1000;
+    position: static;
+  }
+
+  .btn--app {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 450px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+
+  .apple__icon {
+    width: 14px;
+    height: 14px;
+    margin-left: 5px;
+  }
+
+  .apple__text {
+    margin-top: -15px;
+    margin-left: 18px;
+    font-size: 13px;
+  }
+
+  .btn--google {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .play__icon {
+    width: 14px;
+    height: 14px;
+    margin-left: 2px;
+  }
+
+  .play__text {
+    font-size: 13px;
+    margin-top: -15px;
+    margin-left: 15px;
+  }
+
+  /* Testimonials */
+
+  .--testimonial__text {
+    width: 100%;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .reviews__text {
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .--reviews__rating {
+    margin-left: 0;
+    display: block;
+    text-align: center;
+  }
+
+  .reviews__author {
+    font-style: 14px;
+  }
+
+  .reviews__prof {
+    margin-bottom: 50px;
+  }
+
+  /* Contact */
+
+  .section--contact {
+    height: 322px;
+  }
+
+  .contact--title {
+    font-size: 14px;
+  }
+
+  .contact--subtitle {
+    font-size: 21px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .contact__input {
+    width: 220px;
+    height: 45px;
+    margin-left: 0;
+    font-size: 14px;
+  }
+
+  .contact__button {
+    width: 75px;
+    height: 45px;
+    font-size: 14px;
+  }
+
+  .contact__form {
+    text-align: center;
+  }
+
+  /* Footer */
+
+  .footer {
+    padding-top: 70px;
+    padding-bottom: 0;
+  }
+
+  .footer__inner {
+    text-align: center;
+  }
+
+  .footer__item {
+    width: 51%;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer__social {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-left: 13px;
+  }
+
+  .page {
+    overflow: hidden;
+    overflow-y: hidden; /*для вертикального*/
+    overflow-x: hidden;
+  }
+}
